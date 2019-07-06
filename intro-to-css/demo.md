@@ -1,40 +1,40 @@
 Customizing Hosted ArcGIS Online Apps with CSS
 
 1. CSS Basics
-  1. [CSS Syntax](https://developer.mozilla.org/en-US/docs/Web/CSS/Syntax)
-  2. [CSS Selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors)
-    1. [ID](https://developer.mozilla.org/en-US/docs/Web/CSS/ID_selectors)
-    2. [Class](https://developer.mozilla.org/en-US/docs/Web/CSS/Class_selectors)
-      1. .className {}
-      2. Gotchas:
-        1. No spaces with class names in HTML;
-        2. Select an element with class &quot;menu&quot; and class &quot;item&quot;
-          1. .menu.item {}
-        3. Select multiple items by separating selectors with &quot;,&quot;
-        4. If you copy-paste class names from dev tools, you need to add a  &quot;.&quot; to the CSS selector
+    1. [CSS Syntax](https://developer.mozilla.org/en-US/docs/Web/CSS/Syntax)
+    2. [CSS Selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors)
+        1. [ID](https://developer.mozilla.org/en-US/docs/Web/CSS/ID_selectors)
+        2. [Class](https://developer.mozilla.org/en-US/docs/Web/CSS/Class_selectors)
+            1. .className {}
+            2. Gotchas:
+                1. No spaces with class names in HTML;
+                2. Select an element with class &quot;menu&quot; and class &quot;item&quot;
+                    1. .menu.item {}
+                3. Select multiple items by separating selectors with &quot;,&quot;
+                4. If you copy-paste class names from dev tools, you need to add a  &quot;.&quot; to the CSS selector
     3. [Descendent](https://developer.mozilla.org/en-US/docs/Web/CSS/Descendant_combinator)
     4. [Adjacent Sibling](https://developer.mozilla.org/en-US/docs/Web/CSS/Adjacent_sibling_combinator)
-      1. Looks at the element that comes before the current one, the one that comes before must be that selector
+        1. Looks at the element that comes before the current one, the one that comes before must be that selector
     5. [General Sibling](https://developer.mozilla.org/en-US/docs/Web/CSS/General_sibling_combinator)
-      1. Anything before it must be that selector
+        1. Anything before it must be that selector
     6. [Child combinator](https://developer.mozilla.org/en-US/docs/Web/CSS/Child_combinator)
   3. [Pseudo-classes](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes)
-    1. **Description** : A pseudo-class is a keyword added to a selector that specifies a special state of the selected element(s)…. Pseudo-classes let you apply a style to an element not only in relation to the content of the document tree, but also in relation to external factors like the history of the navigator (:visited, for example), the status of its content (like :checked on certain form elements), or the position of the mouse (like :hover, which lets you know if the mouse is over an element or not). [[MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes)]
-    2. **Examples**
-      1. :nth-child(n) {}
-        1. :nth-child(1) {}
-        2. :nth-child(odd) {}
-      2. :nth-last-child(n) {}
-        1. :nth-last-child(2) {}
-      3. :nth-of-type(n) {}
-      4. :nth-last-of-type(n) {}
-      5. :first-of-type {}
-      6. :last-of-type {}
-      7. :last-child {}
-      8. :first-child {}
-      9. :not() {}
+      1. **Description** : A pseudo-class is a keyword added to a selector that specifies a special state of the selected element(s)…. Pseudo-classes let you apply a style to an element not only in relation to the content of the document tree, but also in relation to external factors like the history of the navigator (:visited, for example), the status of its content (like :checked on certain form elements), or the position of the mouse (like :hover, which lets you know if the mouse is over an element or not). [[MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes)]
+      2. **Examples**
+          1. :nth-child(n) {}
+              1. :nth-child(1) {}
+              2. :nth-child(odd) {}
+          2. :nth-last-child(n) {}
+              1. :nth-last-child(2) {}
+          3. :nth-of-type(n) {}
+          4. :nth-last-of-type(n) {}
+          5. :first-of-type {}
+          6. :last-of-type {}
+          7. :last-child {}
+          8. :first-child {}
+          9. :not() {}
   4. [Pseudo-elements](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements)
-    1. Description: pseudo-element is a keyword added to a selector that lets you style a specific part of the selected element(s). [[MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements)]
+      1. Description: pseudo-element is a keyword added to a selector that lets you style a specific part of the selected element(s). [[MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements)]
   5. [Media queries](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries)
     1. [@media](https://developer.mozilla.org/en-US/docs/Web/CSS/@media)
     2. Example:
