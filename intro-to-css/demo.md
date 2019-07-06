@@ -1,6 +1,6 @@
 Customizing Hosted ArcGIS Online Apps with CSS
 
-- CSS Basics
+### CSS Basics
   - [CSS Syntax](https://developer.mozilla.org/en-US/docs/Web/CSS/Syntax)
   - [CSS Selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors)
     - [ID](https://developer.mozilla.org/en-US/docs/Web/CSS/ID_selectors)
@@ -44,7 +44,7 @@ Customizing Hosted ArcGIS Online Apps with CSS
     - Positioning
     - [Flexbox](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox)
     - [Grid](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Grids)
-- Steps to CSS Customization
+### Steps to CSS Customization
   - Deploy app with AGO GUI customization
   - Open app in a tab, open dev tools
   - Find and make changes
@@ -52,28 +52,27 @@ Customizing Hosted ArcGIS Online Apps with CSS
   - Once finished making and copying changes, copy all CSS and autoprefix
   - Copy all autoprefixed CSS and minify
   - Copy minified CSS and paste into Custom CSS box in AGO
-- CSS Resources
+### CSS Resources
   - [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS)
     - MDN \&gt; W3 Schools
   - [Free Code Camp](https://www.freecodecamp.org/)
   - [CSS for Geographers](http://patrickarlt.com/dev-summit-2019-talks/css-for-geographers/#/)
   - [CSS Selectors](https://learn.shayhowe.com/advanced-html-css/complex-selectors/)
-- Learn CSS Layout
+### Learn CSS Layout
   - [What the Flexbox](https://flexbox.io/) by Wes Bos
   - [CSS Grid](https://cssgrid.io/) by Wes Bos
-- Tools
+### Tools
   - [Firefox Developer Edition](https://www.mozilla.org/en-US/firefox/developer/)
     - Extensions:
       - [Web Developer](https://addons.mozilla.org/en-US/firefox/addon/web-developer/)
   - [PostCSS Autoprefixer](https://github.com/postcss/autoprefixer)
   - [CSS Optimizer](https://github.com/css/csso)
-  -
-- A note about CSS Grid
+### A note about CSS Grid
   - Not supported in IE 10 &amp; 11
-- Misc.
+### Misc.
   - display: none;
   - generate content with CSS
     - combine content property with :before or :after
   - [Transform](https://esrimedia.maps.arcgis.com/home/item.html?id=94d6fb566dbc4fbdae4ac59656ac56ca)
-- Examples of CSS customizations
+### Examples of CSS customizations
   -
