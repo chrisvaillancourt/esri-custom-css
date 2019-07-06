@@ -36,10 +36,10 @@ Customizing Hosted ArcGIS Online Apps with CSS
   4. [Pseudo-elements](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements)
       1. Description: pseudo-element is a keyword added to a selector that lets you style a specific part of the selected element(s). [[MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements)]
   5. [Media queries](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries)
-    1. [@media](https://developer.mozilla.org/en-US/docs/Web/CSS/@media)
-    2. Example:
-      1. [EIG Website](https://eig.org/opportunityzones)
-      2. [Standalone app](https://esrimedia.maps.arcgis.com/apps/View/index.html?appid=77f3cad12b6c4bffb816332544f04542)
+        1. [@media](https://developer.mozilla.org/en-US/docs/Web/CSS/@media)
+        2. Example:
+              1. [EIG Website](https://eig.org/opportunityzones)
+              2. [Standalone app](https://esrimedia.maps.arcgis.com/apps/View/index.html?appid=77f3cad12b6c4bffb816332544f04542)
   6. [CSS Layout](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout)
     1. Positioning
     2. [Flexbox](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox)
